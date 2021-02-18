@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<table border="0" width="900" align="center">
+		<tr id="logo">
+			<td>
+				<img src="img/logo.png">
+
+			</td>
+			<td id="menu">
+				<a href="index.html">Home</a>
+				<a href="QuemSomos.html">Quem Somos</a>
+				<a href="Contato.html">Contato</a>
+				<a href="Destino.html">Destino</a>
+				<a href=""><img src="img/buscaricone.png" height="42px" align="right"></a>
+			</td>
+			
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				<h1 id="ipacotes">Buscar Pacotes</h1> <br/>
+			</td>
+			
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				<form action="http://191.252.62.149:8080/pweb/salvar.jsp">
+					<table align="center"  bgcolor="#FF8C00" id="tabelabusca">
+						<tr>
+							<td>
+								Origem: <input type="text" name="origem" value="origem">  <br/><br/>
+							</td>
+							<td>Destino: <input type="text" name="destino" value="destino"> <br/><br/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Data de Partida: <input type="date" name="partida" value="partida"> <br/><br/>
+							</td>
+							<td>Data de Retorno: <input type="date" name="retorno" value="retorno"> <br/><br/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Quartos:<select name="quartos"> 
+									<option></option>
+									<option>01</option>
+									<option>02</option>
+									<option>03</option>
+									<option>04</option>
+									<option>05</option>
+
+								</select> <br/><br/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Qtde de Adutos: <select name="qtdadultos">
+									<option></option>
+									<option>01</option>
+									<option>02</option>
+									<option>03</option>
+									<option>04</option>
+									<option>05</option>
+									<option>06</option>
+									<option>07</option>
+									<option>08</option>
+								</select> <br/><br/>
+							</td>
+							<td>
+								Qtde de Crianças: <select name="qtdcriancas">
+									<option></option>
+									<option>01</option>
+									<option>02</option>
+									<option>03</option>
+									<option>04</option>
+									<option>05</option>
+									<option>06</option>
+									<option>07</option>
+									<option>08</option>
+								</select> <br/><br/>
+							</td>
+						</tr>
+					</table>
+
+					<input type="submit" value="Enviar" >
+				</form>
+			</td>
+			
+			
+		</tr>
+
+		<tr>
+
+			<td align="center" colspan="2" id="rodape">
+				<h4>Todos os direitos reservados</h4>
+			</td>
+			
+		</tr>
+		
+	</table>
+
+</body>
+</html>
